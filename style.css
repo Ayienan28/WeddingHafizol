@@ -135,7 +135,7 @@ button {
     background: linear-gradient( 45deg, #8B1E3F, #C77D7D );
     color: white;
     font-size: 22px;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     cursor: pointer;
 }
     /*button:hover {
@@ -729,11 +729,12 @@ body.lock {
 
     /* button */
     button {
-        width: 250px;
-        height: 55px;
-        font-size: 18px;
+        width: 260px;
+        height: 58px;
+        font-size: 14px;
+        font-weight: 600;
         padding: 0 20px;
-        letter-spacing: 1px;
+        letter-spacing: 0.5px;
         white-space: nowrap;
     }
     .button-group {
