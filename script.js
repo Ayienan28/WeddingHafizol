@@ -299,6 +299,22 @@ window.onload = function () {
 
     music.volume = 0.2;
 
+
+    function mulaMusic(){
+
+        music.play();
+
+        document.removeEventListener("click", mulaMusic);
+        document.removeEventListener("touchstart", mulaMusic);
+
+    }
+
+
+    document.addEventListener("click", mulaMusic);
+
+    document.addEventListener("touchstart", mulaMusic);
+
+
 }
 //function playMusic() {
 
