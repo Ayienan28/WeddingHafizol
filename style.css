@@ -652,71 +652,199 @@ body.lock {
 
 
 
-/*utk phone*/
+/* utk phone */
 
 @media(max-width:768px) {
 
-    h1 {
-        font-size: 45px;
-    }
 
-    h2 {
-        font-size: 30px;
-    }
+    #cover h1 {
 
-    p {
-        font-size: 18px;
-    }
+        font-size: 85px;
 
-    button {
-        width: 220px;
-        font-size: 18px;
-    }
-
-    #cover h1
-
-    {
-        font-size: 75px;
     }
 
 
-    .bismillah {
-        width: 200px;
+    #cover h2 {
+
+        font-size: 40px;
+
     }
 
 
     #cover p {
-        font-size: 20px;
+
+        font-size: 25px;
+
     }
 
 
+    .bismillah {
+
+        width: 250px;
+
+    }
+
+
+    button {
+
+        width: 260px;
+
+        height: 65px;
+
+        font-size: 22px;
+
+    }
+
+
+
+    /* bahagian kad */
+
+
+    #kad {
+
+        padding: 25px;
+
+    }
+
+
+    #kad h1 {
+
+        font-size: 42px;
+
+    }
+
+
+    #kad h2 {
+
+        font-size: 32px;
+
+        line-height: 1.6;
+
+    }
+
+
+    #kad .ucapan {
+
+        font-size: 38px;
+
+    }
+
+
+    #kad p {
+
+        font-size: 22px;
+
+        line-height: 1.8;
+
+    }
+
+
+
+    /* info */
+
+
+    .info h2 {
+
+        font-size: 34px;
+
+    }
+
+
+    .info p {
+
+        font-size: 22px;
+
+    }
+
+
+
+    /* doa */
+
+
+    .ayat-quran {
+
+        padding: 35px 25px;
+
+    }
+
+
+    .ayat-quran .arab {
+
+        font-size: 30px;
+
+        line-height: 2;
+
+    }
+
+
+    .ayat-quran .terjemahan {
+
+        font-size: 21px;
+
+    }
+
+
+
+    /* countdown */
+
+
+    .countdown h2 {
+
+        font-size: 32px;
+
+    }
+
+
+    .timer span {
+
+        font-size: 45px;
+
+    }
+
+
+    .timer p {
+
+        font-size: 18px;
+
+    }
+
+
+
+    /* button */
+
+
     .button-group {
+
         flex-direction: column;
+
         align-items: center;
+
+        gap:20px;
+
     }
 
 
     .map-btn,
     .rsvp-btn {
-        width: 220px;
-        text-align: center;
+
+        width: 85%;
+
+        font-size: 22px;
+
+        padding:18px;
+
     }
 
-    #kad h2 {
-        font-size: 28px;
+
+
+    /* slider */
+
+
+    .slide {
+
+        font-size:24px;
+
     }
-    .ayat-quran {
-        padding: 30px 20px;
-    }
 
-
-        .ayat-quran .arab {
-            font-size: 24px;
-        }
-
-
-        .ayat-quran .terjemahan {
-            font-size: 18px;
-        }
 
 }
