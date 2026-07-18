@@ -674,12 +674,7 @@ body.lock {
     .bismillah {
         width:170px;
     }
-    button {
-        width: 260px;
-        height: 65px;
-        font-size: 22px;
-    }
-
+    
     /* bahagian kad */
     #kad {
         padding: 25px;
@@ -733,6 +728,14 @@ body.lock {
     }
 
     /* button */
+    button {
+        width: 250px;
+        height: 55px;
+        font-size: 18px;
+        padding: 0 20px;
+        letter-spacing: 1px;
+        white-space: nowrap;
+    }
     .button-group {
         flex-direction: column;
         align-items: center;
@@ -741,8 +744,8 @@ body.lock {
     .map-btn,
     .rsvp-btn {
         width: 85%;
-        font-size: 22px;
-        padding:18px;
+        font-size: 18px;
+        padding:16px;
     }
 
     /* slider */
